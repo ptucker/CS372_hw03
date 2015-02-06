@@ -17,6 +17,7 @@ public class UserInput {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //PT -- don't leave TODO in here
         // TODO code application logic here
         ArrayList<Integer> values = new IntNum().getInts(10);
         Calc calcObject = new Calc(values);
