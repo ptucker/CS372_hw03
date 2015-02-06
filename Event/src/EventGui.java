@@ -134,6 +134,7 @@ public class EventGui extends javax.swing.JFrame {
 
     private void saveButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveButtonActionPerformed
         // TODO add your handling code here:
+        //PT -- I'm not sure this compiles, by putting a function inside a function. -20
     public String saveEntry(String month, String day, String year, String entry) {
         getFile(month, year);
         try {
