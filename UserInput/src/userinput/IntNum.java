@@ -16,7 +16,7 @@ public class IntNum {
 
     private ArrayList<Integer> numUserEnters = new ArrayList();
     Scanner userNum = new Scanner(System.in);
-
+//PT -- javadoc? -3
     public ArrayList<Integer> getInts(int numOfInt) {
         System.out.printf("Enter %d integers:", (int) numOfInt);
         for (int i = 0; i < numOfInt; i++) {
