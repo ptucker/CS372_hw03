@@ -24,7 +24,7 @@ public class IntNum {
                 numUserEnters.add(userNum.nextInt());
             } catch (Exception ex) {
                 System.out.println("All value must be integer");
-
+                //PT -- i-- here, so that you get 10 integers
             }
         }
         return numUserEnters;
