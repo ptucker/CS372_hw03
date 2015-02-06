@@ -13,7 +13,7 @@ public class Triangle extends MainShape {
 
     int sideOne, sideTwo, sideThree;
     double s;
-
+//PT -- javadoc? -4
     public Triangle(int s1, int s2, int s3)
             throws IllegalArgumentException, ArithmeticException {
         if (s1 < 0 || s2 < 0 || s3 < 0) {
